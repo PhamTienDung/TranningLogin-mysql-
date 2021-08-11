@@ -27,6 +27,7 @@ gem 'jquery-rails', '~> 4.4'
 gem 'kaminari', '~> 1.2', '>= 1.2.1'
 gem 'bootstrap-will_paginate', '~> 1.0'
 gem 'mysql2', '~> 0.5.3'
+#gem 'carrierwave', '~> 2.2', '>= 2.2.2'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 

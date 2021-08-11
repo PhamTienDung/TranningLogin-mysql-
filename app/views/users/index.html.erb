@@ -16,7 +16,6 @@
       <th class="text-center col-md-2">Name</th>
       <th class="text-center col-md-3">Id</th>
       <th class="text-center col-md-3">Show</th>
-      <th class="text-center col-md-3">Upload Images</th>
       <th class="text-center col-md-3">Edit</th>
       <th class="text-center col-md-3">Destroy</th>
 
@@ -27,7 +26,6 @@
         <td scope="row"><%= user.name %></td>
         <td scope="row"><%= user.id %></td>
         <td><%= link_to 'Show', user_path(user) %></td>
-        <td><%= link_to 'Upload Images', edit_user_path(user) %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>
         <td><%= link_to 'Destroy', user_path(user),
               method: :delete,
